@@ -104,5 +104,6 @@ a {
     height: calc(var(--header-height) - var(--su-2) * 2);
     vertical-align: middle;
     display: inline-block;
+    fill: currentColor;
   }
 }
