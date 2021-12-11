@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+ svg {
+    max-width: 100%;
+    width: auto;
+    height: calc(var(--header-height) - var(--su-2) * 2);
+    vertical-align: middle;
+    display: inline-block;
+    fill: currentColor;
+  }
